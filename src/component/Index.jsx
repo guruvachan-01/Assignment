@@ -11,7 +11,6 @@ const cardData = [
     tag: "For Self",
     status: "Following Available",
     follow: "Follow Up Now",
-    image: "public/image 2.png",
   },
   {
     id: 2,
@@ -21,7 +20,6 @@ const cardData = [
     tag: "For Self",
     status: "Following Available",
     follow: "Follow Up Now",
-    image: "public/image 2.png",
   },
   {
     id: 3,
@@ -31,7 +29,6 @@ const cardData = [
     tag: "For Self",
     status: "Following Available",
     follow: "Follow Up Now",
-    image: "public/image 2.png",
   },
   {
     id: 4,
@@ -41,7 +38,6 @@ const cardData = [
     tag: "For Self",
     status: "Following Available",
     follow: "Follow Up Now",
-    image: "public/image 2.png",
   },
   {
     id: 5,
@@ -51,7 +47,6 @@ const cardData = [
     tag: "For Self",
     status: "Following Available",
     follow: "Follow Up Now",
-    image: "public/image 2.png",
   },
   {
     id: 6,
@@ -61,7 +56,6 @@ const cardData = [
     tag: "For Self",
     status: "Following Available",
     follow: "Follow Up Now",
-    image: "public/image 2.png",
   },
   {
     id: 7,
@@ -71,7 +65,6 @@ const cardData = [
     tag: "For Self",
     status: "Following Available",
     follow: "Follow Up Now",
-    image: "public/image 2.png",
   },
   {
     id: 8,
@@ -81,7 +74,6 @@ const cardData = [
     tag: "For Self",
     status: "Following Available",
     follow: "Follow Up Now",
-    image: "public/image 2.png",
   },
   {
     id: 9,
@@ -91,7 +83,6 @@ const cardData = [
     tag: "For Self",
     status: "Following Available",
     follow: "Follow Up Now",
-    image: "public/image 2.png",
   },
 ];
 
@@ -130,8 +121,8 @@ const index = () => {
           <div key={card.id} className="flex  bg-white p-2  rounded-lg w-80">
             <div>
               <img
-                src={card.image}
-                alt={card.name}
+                src="/image 2.png"
+                alt="/"
                 className=" h-12 rounded-3xl mb-4"
               />
 
